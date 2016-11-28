@@ -94,11 +94,11 @@ span {
     margin-bottom: 100%; }
     header nav {
       border-top: 1px solid gray;
-      margin-top: 80%; }
+      margin-top: 300px; }
       header nav li {
         list-style-type: none;
-        margin: 2%;
-        width: 100%;
+        margin: 7% 13%;
+        width: 70%;
         color: firebrick;
         border-bottom: 1px solid gray;
         padding-bottom: 1em;
@@ -106,6 +106,9 @@ span {
       header nav ul {
         text-align: center; }
     header .logo {
+      background: url("../img/logo-bg.png") no-repeat 50% 0;
+      width: auto;
+      height: 284px;
       position: absolute;
       top: 0; }
       header .logo img {
@@ -113,7 +116,7 @@ span {
         margin: 0 auto;
         max-width: 100%;
         padding-top: 15px;
-        margin-bottom: 15px; }
+        margin: 100px 15px; }
 
   strong {
     display: block;
@@ -134,10 +137,11 @@ span {
     .one img {
       border-radius: 5px;
       box-shadow: 1px 3px 10px grey;
-      width: 7em;
+      width: 18vw;
+      max-width: 100%;
       height: auto;
-      margin-top: 3em;
-      display: flex; }
+      margin: 0.7em 0.2em;
+      display: block; }
 
   .album {
     background: url("../img/ornament.png") no-repeat; }
