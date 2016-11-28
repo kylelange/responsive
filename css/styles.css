@@ -3,9 +3,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   padding: 0;
   box-sizing: border-box; }
 
+body {
+  background-color: #e6e6e6;
+  margin: 2%; }
+
 h1,
 h2,
-p {
+p,
+li {
   font-family: "Palatino Linotype", serif; }
 
 h2 {
@@ -23,22 +28,17 @@ span {
   nav {
     border-top: 1px solid gray;
     margin-top: 8%; }
-
-  nav li {
-    float: left;
-    list-style-type: none;
-    max-width: 15%;
-    margin: 5% 13%;
-    margin-left: 3em;
-    text-align: center;
-    color: firebrick;
-    border-bottom: 1px solid gray;
-    padding-bottom: 1em;
-    font-size: 0.6em;
-    display: block; }
-
-  ul {
-    text-align: center; }
+    nav li {
+      float: left;
+      list-style-type: none;
+      margin: 2%;
+      width: 29%;
+      color: firebrick;
+      border-bottom: 1px solid gray;
+      padding-bottom: 1em;
+      font-size: 0.6em; }
+    nav ul {
+      text-align: center; }
 
   .logo img {
     display: block;
@@ -52,23 +52,115 @@ span {
 
   .one {
     display: inline-block;
-    margin: 3%; }
+    margin: 1%; }
     .one p {
       text-align: center;
-      color: firebrick; }
+      color: firebrick;
+      font-size: 11px;
+      letter-spacing: 0.5px; }
+    .one strong {
+      font-size: 15px;
+      letter-spacing: 1.5px; }
     .one img {
       border-radius: 5px;
       box-shadow: 1px 3px 10px grey;
       width: 10em;
       height: auto;
-      margin-top: 3em; }
+      margin-top: 3em;
+      display: flex; }
+
+  footer {
+    background: url("../img/ornament.png") 50% 0 repeat-x;
+    text-align: center;
+    padding: 40px 0 20px; }
+    footer span {
+      color: firebrick; }
+    footer p {
+      font-size: 0.8em;
+      margin: 0.5em; }
 
   .album {
     background: url("../img/ornament.png") no-repeat; }
     .album h2 {
-      background-color: white;
+      background-color: #e6e6e6;
       width: 50%;
       text-align: center;
       margin-left: 5em; } }
+@media only screen and (min-width: 600px) and (max-width: 1300px) {
+  header {
+    position: relative;
+    float: left;
+    width: 33%;
+    margin-bottom: 100%; }
+    header nav {
+      border-top: 1px solid gray;
+      margin-top: 80%; }
+      header nav li {
+        list-style-type: none;
+        margin: 2%;
+        width: 100%;
+        color: firebrick;
+        border-bottom: 1px solid gray;
+        padding-bottom: 1em;
+        font-size: 0.9em; }
+      header nav ul {
+        text-align: center; }
+    header .logo {
+      position: absolute;
+      top: 0; }
+      header .logo img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        padding-top: 15px;
+        margin-bottom: 15px; }
+
+  strong {
+    display: block;
+    font-size: 1em;
+    letter-spacing: 1.5px; }
+
+  .one {
+    display: inline-block; }
+    .one p {
+      text-align: center;
+      color: firebrick;
+      font-size: 11px;
+      letter-spacing: 0.5px; }
+    .one strong {
+      font-size: 15px;
+      letter-spacing: 1.5px;
+      display: block; }
+    .one img {
+      border-radius: 5px;
+      box-shadow: 1px 3px 10px grey;
+      width: 7em;
+      height: auto;
+      margin-top: 3em;
+      display: flex; }
+
+  .album {
+    background: url("../img/ornament.png") no-repeat; }
+    .album h2 {
+      background-color: #e6e6e6;
+      width: 54%;
+      text-align: center;
+      margin-left: 3.5em;
+      padding: 10px; }
+
+  .right-column {
+    margin-top: 100px;
+    width: 65%;
+    float: right; }
+
+  footer {
+    background: url("../img/ornament.png") 50% 0 repeat-x;
+    text-align: center;
+    padding: 40px 0 20px; }
+    footer span {
+      color: firebrick; }
+    footer p {
+      font-size: 0.8em;
+      margin: 0.5em; } }
 
 /*# sourceMappingURL=styles.css.map */

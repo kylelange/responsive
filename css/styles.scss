@@ -1,8 +1,16 @@
 @import "_reset.scss";
 
+$color: #e6e6e6;
+
+body {
+  background-color: $color;
+  margin: 2%;
+}
+
 h1,
 h2,
-p {
+p,
+li {
   font-family: "Palatino Linotype", serif;
 }
 
@@ -20,80 +28,181 @@ span {
   font-size: 1em;
 }
 
-// .album {
-//     background: url("../img/ornament.png") no-repeat;
-//     h2 {
-//       background-color: white;
-//       width: 50%;
-//       text-align: center;
-//       margin-left: 5em;
-//     }
-// }
-
-
 @media screen and (max-width: 600px){
-nav {
-  border-top: 1px solid gray;
-  margin-top: 8%;
-  // margin-left: 3%;
-  // margin-right: 3%;
-  //margin: 0 auto;
-}
-
-nav li {
-  float: left;
-  list-style-type: none;
-  max-width: 15%;
-  margin: 5% 13%;
-  margin-left: 3em;
-  text-align: center;
-  color: firebrick;
-  border-bottom: 1px solid gray;
-  padding-bottom: 1em;
-  font-size: 0.6em;
-  display: block;
-}
-
-ul {
-    text-align: center;
-}
-.logo img {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
-  padding-top: 15px;
-  margin-bottom: 15px;
-}
-
-strong {
-  display: block;
-}
-
-.one {
-  display: inline-block;
-  margin: 3%;
-    p {
-    text-align: center;
-    color: firebrick;
+  nav {
+    border-top: 1px solid gray;
+    margin-top: 8%;
+    li {
+      float: left;
+      list-style-type: none;
+      margin: 2%;
+      width: 29%;
+      color: firebrick;
+      border-bottom: 1px solid gray;
+      padding-bottom: 1em;
+      font-size: 0.6em;
+    }
+    ul {
+      text-align: center;
+    }
   }
+
+  .logo img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    padding-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  strong {
+    display: block;
+  }
+
+  .one {
+    display: inline-block;
+    margin: 1%;
+    p {
+      text-align: center;
+      color: firebrick;
+      font-size: 11px;
+      letter-spacing: 0.5px;
+    }
+    strong {
+      font-size: 15px;
+      letter-spacing: 1.5px;
+    }
     img {
       border-radius: 5px;
       box-shadow: 1px 3px 10px grey;
       width: 10em;
+      // max-width: 100%;
       height: auto;
       margin-top: 3em;
+      display: flex;
+    }
   }
-}
 
-.album {
+  footer {
+    background: url("../img/ornament.png") 50% 0 repeat-x;
+    text-align: center;
+    padding: 40px 0 20px;
+    span {
+      color: firebrick;
+    }
+    p {
+      font-size: 0.8em;
+      margin: 0.5em;
+    }
+  }
+
+  .album {
     background: url("../img/ornament.png") no-repeat;
     h2 {
-      background-color: white;
+      background-color: $color;
       width: 50%;
       text-align: center;
       margin-left: 5em;
     }
+  }
+
 }
 
+// Media Query 2 //
 
+@media only screen and (min-width: 600px) and (max-width: 1300px) {
+  header {
+    position: relative;
+    float: left;
+    width: 33%;
+    margin-bottom: 100%;
+    nav {
+      border-top: 1px solid gray;
+      margin-top: 80%;
+      li {
+        list-style-type: none;
+        margin: 2%;
+        width: 100%;
+        color: firebrick;
+        border-bottom: 1px solid gray;
+        padding-bottom: 1em;
+        font-size: 0.9em;
+      }
+      ul {
+        text-align: center;
+      }
+    }
+
+    .logo {
+      position: absolute;
+      top: 0;
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        padding-top: 15px;
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  strong {
+    display: block;
+    font-size: 1em;
+    letter-spacing: 1.5px;
+  }
+
+  .one {
+    display: inline-block;
+    p {
+      text-align: center;
+      color: firebrick;
+      font-size: 11px;
+      letter-spacing: 0.5px;
+    }
+    strong {
+      font-size: 15px;
+      letter-spacing: 1.5px;
+      display: block;
+    }
+    img {
+      border-radius: 5px;
+      box-shadow: 1px 3px 10px grey;
+      width: 7em;
+      // max-width: 100%;
+      height: auto;
+      margin-top: 3em;
+      display: flex;
+    }
+  }
+
+  .album {
+    background: url("../img/ornament.png") no-repeat;
+    h2 {
+      background-color: $color;
+      width: 54%;
+      text-align: center;
+      margin-left: 3.5em;
+      padding: 10px;
+    }
+  }
+
+  .right-column {
+    margin-top: 100px;
+    width: 65%;
+    float: right;
+  }
+
+  footer {
+    background: url("../img/ornament.png") 50% 0 repeat-x;
+    text-align: center;
+    padding: 40px 0 20px;
+    span {
+      color: firebrick;
+    }
+    p {
+      font-size: 0.8em;
+      margin: 0.5em;
+    }
+  }
 }
