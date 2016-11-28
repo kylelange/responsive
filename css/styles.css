@@ -3,13 +3,26 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   padding: 0;
   box-sizing: border-box; }
 
-h1, h2, p {
+h1,
+h2,
+p {
   font-family: "Palatino Linotype", serif; }
+
+h2 {
+  text-align: center; }
+
+p {
+  margin: 3%;
+  font-size: 18px; }
+
+span {
+  text-align: center;
+  font-size: 1em; }
 
 @media screen and (max-width: 600px) {
   nav {
     border-top: 1px solid gray;
-    margin-top: 3%; }
+    margin-top: 8%; }
 
   nav li {
     float: left;
@@ -35,6 +48,27 @@ h1, h2, p {
     margin-bottom: 15px; }
 
   strong {
-    display: block; } }
+    display: block; }
+
+  .one {
+    display: inline-block;
+    margin: 3%; }
+    .one p {
+      text-align: center;
+      color: firebrick; }
+    .one img {
+      border-radius: 5px;
+      box-shadow: 1px 3px 10px grey;
+      width: 10em;
+      height: auto;
+      margin-top: 3em; }
+
+  .album {
+    background: url("../img/ornament.png") no-repeat; }
+    .album h2 {
+      background-color: white;
+      width: 50%;
+      text-align: center;
+      margin-left: 5em; } }
 
 /*# sourceMappingURL=styles.css.map */

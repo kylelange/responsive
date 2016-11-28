@@ -1,14 +1,40 @@
 @import "_reset.scss";
 
-h1,h2,p {
+h1,
+h2,
+p {
   font-family: "Palatino Linotype", serif;
 }
 
-@media screen and (max-width: 600px){
+h2 {
+  text-align: center;
+}
 
+p {
+  margin: 3%;
+  font-size: 18px;
+}
+
+span {
+  text-align: center;
+  font-size: 1em;
+}
+
+// .album {
+//     background: url("../img/ornament.png") no-repeat;
+//     h2 {
+//       background-color: white;
+//       width: 50%;
+//       text-align: center;
+//       margin-left: 5em;
+//     }
+// }
+
+
+@media screen and (max-width: 600px){
 nav {
   border-top: 1px solid gray;
-  margin-top: 3%;
+  margin-top: 8%;
   // margin-left: 3%;
   // margin-right: 3%;
   //margin: 0 auto;
@@ -42,5 +68,32 @@ ul {
 strong {
   display: block;
 }
+
+.one {
+  display: inline-block;
+  margin: 3%;
+    p {
+    text-align: center;
+    color: firebrick;
+  }
+    img {
+      border-radius: 5px;
+      box-shadow: 1px 3px 10px grey;
+      width: 10em;
+      height: auto;
+      margin-top: 3em;
+  }
+}
+
+.album {
+    background: url("../img/ornament.png") no-repeat;
+    h2 {
+      background-color: white;
+      width: 50%;
+      text-align: center;
+      margin-left: 5em;
+    }
+}
+
 
 }
