@@ -1,34 +1,41 @@
-# _CSS Template_
+# _Project: Copy Baker Street Website_
 
-#### _Project: Copy Baker Street Website_
+
 
 #### By _**Megan Kaluza & Kyle Lange**_
 
+![screenshot](Screen Shot.png)
+
+See it live [HERE](https://kylelange.github.io/responsive/).
+
 ## Description
+
+_This project is a PRACTICE page to work on responsive design using relative values and media query breakpoints. The site copied can be [found here](http://alistapart.com/d/responsive-web-design/ex/ex-site-FINAL.html#)_
 
 _This webpage displays a form with bootstrap, divs, checkboxes, ids, classes, jQuery, JavaScript, functions, and CSS that initiate a survey to decide which remaining classes to take at Epicodus. My HTML and .js pages include comments to organize and continue building my webpage_
 
 ## Setup/Installation Requirements
 
-* _Clone this repository https://github.com/megankaluza/css_template.git_
+* _Clone this repository https://github.com/megankaluza/responsive.git_ or
 * _gem install sass_
 * _sass styles.scss_
 * _sass --watch ._
 
 ## Known Bugs
 
-_No known bugs at this time_
+_No known bugs at this time. Please send an ISSUE on github in the repository if you see something we have not._
 
 ## Support and contact details
+
+Contact Megan [here.](megan.kaluza@gmail.com)
+
+Contact Kyle [here.](baronsintrees@gmail.com)
 
 ## Technologies Used
 
 * _HTML_
 * _CSS_
-* _Bootstrap_
-* _Google Fonts_
-* _jQuery_
-* _JavaScript_
+* _Sass_
 
 ### License
 

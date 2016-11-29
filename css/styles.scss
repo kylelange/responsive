@@ -28,6 +28,8 @@ span {
   font-size: 1em;
 }
 
+
+
 @media screen and (max-width: 600px){
   nav {
     border-top: 1px solid gray;
@@ -104,6 +106,9 @@ span {
       text-align: center;
       margin-left: 5em;
     }
+  }
+  .logo-big {
+    display: none;
   }
 
 }
@@ -185,7 +190,7 @@ span {
       background-color: $color;
       width: 54%;
       text-align: center;
-      margin-left: 3.5em;
+      margin-left: 25%;
       padding: 10px;
     }
   }
@@ -196,6 +201,106 @@ span {
     float: right;
   }
 
+  footer {
+    background: url("../img/ornament.png") 50% 0 repeat-x;
+    text-align: center;
+    padding: 40px 0 20px;
+    span {
+      color: firebrick;
+    }
+    p {
+      font-size: 0.8em;
+      margin: 0.5em;
+    }
+  }
+  .logo-big {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 4000px) {
+  header, .right-column {
+    float: right;
+    width: 75%;
+  }
+
+  nav {
+    // border-top: 1px solid gray;
+    margin-top: 8%;
+    li {
+      float: left;
+      list-style-type: none;
+      margin: 2%;
+      width: 29%;
+      color: firebrick;
+      border-bottom: 1px solid gray;
+      padding-bottom: 1em;
+      font-size: .8em;
+    }
+    ul {
+      text-align: center;
+    }
+  }
+  strong {
+    display: block;
+    font-size: 1.1em;
+    letter-spacing: 1.5px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .logo-big {
+    background: url('../img/logo-bg.png') no-repeat 50% 0;
+    float: left;
+    position: relative;
+    width: auto;
+    height: 284px;
+    position: absolute;
+    top: 0;
+    img {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      padding-top: 15px;
+      margin: 100px 15px;
+    }
+  }
+  .one {
+    display: inline-block;
+    p {
+      text-align: center;
+      color: firebrick;
+      font-size: 11px;
+      letter-spacing: 0.5px;
+    }
+    strong {
+      font-size: 15px;
+      letter-spacing: 1.5px;
+      display: block;
+    }
+    img {
+      border-radius: 5px;
+      box-shadow: 1px 3px 10px grey;
+      width: 9vw;
+      max-width: 100%;
+      height: auto;
+      margin: 1em;
+      display: block;
+    }
+  }
+
+  .album {
+    background: url("../img/ornament.png") 50% 0 repeat-x;
+    h2 {
+      background-color: $color;
+      width: 50%;
+      text-align: center;
+      margin-left: 25%;
+      padding: 10px;
+    }
+  }
   footer {
     background: url("../img/ornament.png") 50% 0 repeat-x;
     text-align: center;
