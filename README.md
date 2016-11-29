@@ -6,7 +6,7 @@
 
 ![screenshot](Screen Shot.png)
 
-See it live [HERE](https://kylelange.github.io/responsive/).
+## See it live [HERE](https://kylelange.github.io/responsive/).
 
 ## Description
 
